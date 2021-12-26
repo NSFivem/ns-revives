@@ -23,7 +23,7 @@ while true do
                 DoScreenFadeOut(800)
                 revivePed(ped)
 				else
-					Citizen.Wait(100)
+					Citizen.Wait(3)
                 end	
 
             elseif IsControlJustPressed(0, 45) then
